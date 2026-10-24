@@ -12,11 +12,9 @@ Then open http://localhost:4400. Add `?lang=mn` or `?lang=en` to link straight t
 
 ## Deploy
 
-Live at https://dr-tamir.vercel.app (Vercel project `dr-tamir` on Tamir's DrTMR account, tamirdoctor-6868). To publish changes, sign in to that account once (`npx vercel@latest login`, approve the link in a browser where DrTMR is signed in), then run from this folder:
+Live at https://dr-tamir.vercel.app (Vercel project `dr-tamir` on Tamir's DrTMR account, tamirdoctor-6868).
 
-```bash
-npx vercel@latest deploy --prod
-```
+Every push to `main` on https://github.com/Bilgeehatesyou/dr-tamir-portfolio publishes the site automatically through GitHub Actions (`.github/workflows/deploy.yml`). The workflow uses a Vercel token from Tamir's account, stored as the `VERCEL_TOKEN` repository secret. If deploys stop working, create a new token at vercel.com/account/settings/tokens (signed in as DrTMR) and replace that secret.
 
 `.vercelignore` keeps working files (`PRODUCT.md`, `README.md`, `DESIGN.md`, `.impeccable/`, `.env*`) out of the upload. After changing `styles.css` or `app.js`, bump the `?v=` number on their links in `index.html` so browsers fetch the new files.
 
