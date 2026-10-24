@@ -8,3 +8,4 @@ DESIGN.md
 assets/**/*.webp.json
 .env*
 .vercel
+.github
