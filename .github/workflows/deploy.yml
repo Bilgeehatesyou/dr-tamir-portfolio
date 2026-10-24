@@ -22,17 +22,13 @@ jobs:
         id: token
         run: |
           if [ -z "$VERCEL_TOKEN" ]; then
-            echo "::warning::VERCEL_TOKEN secret is not set yet; skipping deploy."
+            echo "::warning::VERCEL_TOKEN secret is missing; skipping deploy."
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         if: steps.token.outputs.ok == 'true'
-      - uses: actions/setup-node@v4
-        if: steps.token.outputs.ok == 'true'
-        with:
-          node-version: 22
       - name: Deploy
         if: steps.token.outputs.ok == 'true'
         run: npx --yes vercel@65.2.0 deploy --prod --yes --token="$VERCEL_TOKEN"
