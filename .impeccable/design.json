@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T16:49:35.010272+00:00",
+  "title": "Design System: Dr. Tamir Doljinsuren",
+  "extensions": {
+    "colorMeta": {
+      "signage-ground": {
+        "role": "neutral",
+        "displayName": "Signage Ground",
+        "canonical": "#f2f4f3",
+        "tonalRamp": [
+          "#232926",
+          "#3d4842",
+          "#56665e",
+          "#70857a",
+          "#90a299",
+          "#b2beb8",
+          "#d3dad6",
+          "#f1f3f2"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#999999",
+          "#b8b8b8",
+          "#d6d6d6",
+          "#f2f2f2"
+        ]
+      },
+      "sign-navy": {
+        "role": "primary",
+        "displayName": "Sign Navy",
+        "canonical": "#0e1a24",
+        "tonalRamp": [
+          "#152837",
+          "#25455f",
+          "#356288",
+          "#457fb0",
+          "#6c9dc6",
+          "#98bad7",
+          "#c4d8e8",
+          "#edf3f8"
+        ]
+      },
+      "slate-text": {
+        "role": "neutral",
+        "displayName": "Slate Text",
+        "canonical": "#4a5863",
+        "tonalRamp": [
+          "#21272c",
+          "#39434c",
+          "#51606c",
+          "#697d8c",
+          "#8a9ba8",
+          "#adb9c2",
+          "#d0d7dc",
+          "#f0f2f4"
+        ]
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "#6b7880",
+        "tonalRamp": [
+          "#23272a",
+          "#3c4448",
+          "#566067",
+          "#6f7d85",
+          "#909ba2",
+          "#b1b9be",
+          "#d3d7da",
+          "#f1f3f3"
+        ]
+      },
+      "hairline-rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "#d5dcda",
+        "tonalRamp": [
+          "#232a28",
+          "#3c4845",
+          "#566762",
+          "#6f867f",
+          "#90a29d",
+          "#b1beba",
+          "#d2dad8",
+          "#f1f3f3"
+        ]
+      },
+      "panel-raised": {
+        "role": "neutral",
+        "displayName": "Panel Raised",
+        "canonical": "#1c2b36",
+        "tonalRamp": [
+          "#1a2832",
+          "#2d4657",
+          "#40637c",
+          "#5480a1",
+          "#799eb9",
+          "#a1bbce",
+          "#c9d8e3",
+          "#eef3f6"
+        ]
+      },
+      "panel-text-secondary": {
+        "role": "neutral",
+        "displayName": "Panel Text Secondary",
+        "canonical": "#a9b7c0",
+        "tonalRamp": [
+          "#20282c",
+          "#38454d",
+          "#50626d",
+          "#687f8d",
+          "#899ca9",
+          "#adbac3",
+          "#d0d8dc",
+          "#f0f3f4"
+        ]
+      },
+      "zone-clinical-green": {
+        "role": "secondary",
+        "displayName": "Zone Clinical Green",
+        "canonical": "#00866b",
+        "tonalRamp": [
+          "#004c3d",
+          "#00856a",
+          "#00bd97",
+          "#00f5c3",
+          "#33ffd6",
+          "#70ffe2",
+          "#adffef",
+          "#e5fffa"
+        ]
+      },
+      "zone-management-blue": {
+        "role": "secondary",
+        "displayName": "Zone Management Blue",
+        "canonical": "#1f5fae",
+        "tonalRamp": [
+          "#0c2341",
+          "#143d71",
+          "#1d57a0",
+          "#2571d0",
+          "#5292e0",
+          "#86b2e9",
+          "#bad3f3",
+          "#e9f1fb"
+        ]
+      },
+      "zone-research-violet": {
+        "role": "secondary",
+        "displayName": "Zone Research Violet",
+        "canonical": "#6e45a8",
+        "tonalRamp": [
+          "#241636",
+          "#3e275e",
+          "#583786",
+          "#7247ae",
+          "#926ec4",
+          "#b29ad5",
+          "#d3c5e7",
+          "#f1edf8"
+        ]
+      },
+      "zone-venture-amber": {
+        "role": "secondary",
+        "displayName": "Zone Venture Amber",
+        "canonical": "#a65a0d",
+        "tonalRamp": [
+          "#472606",
+          "#7b430a",
+          "#af5f0e",
+          "#e37b12",
+          "#f09a42",
+          "#f5b87b",
+          "#f9d6b3",
+          "#fdf2e7"
+        ]
+      },
+      "zone-education-slate": {
+        "role": "secondary",
+        "displayName": "Zone Education Slate",
+        "canonical": "#4a5863",
+        "tonalRamp": [
+          "#21272c",
+          "#39434c",
+          "#51606c",
+          "#697d8c",
+          "#8a9ba8",
+          "#adb9c2",
+          "#d0d7dc",
+          "#f0f2f4"
+        ]
+      },
+      "directory-profile-tab": {
+        "role": "neutral",
+        "displayName": "Directory Profile Tab",
+        "canonical": "#33475a",
+        "tonalRamp": [
+          "#1c2731",
+          "#304355",
+          "#445f78",
+          "#597b9c",
+          "#7d9ab5",
+          "#a4b8cb",
+          "#cbd6e1",
+          "#eff2f6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name in the lobby only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Zone sign headings and the contact sign."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The one fact that opens each zone."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Post and role names in a zone route."
+      },
+      "title-small": {
+        "displayName": "Title small",
+        "purpose": "Training, education and award entries."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Source lines, lists, publications."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Room plates and year plates, tabular figures."
+      }
+    },
+    "shadows": [
+      {
+        "name": "board-lift",
+        "value": "0 22px 44px -26px rgba(14, 26, 36, .6)",
+        "purpose": "The directory board only."
+      },
+      {
+        "name": "plate-lift",
+        "value": "0 10px 30px -12px rgba(14, 26, 36, .45)",
+        "purpose": "The name plate over the portrait."
+      },
+      {
+        "name": "ground-halo",
+        "value": "0 0 0 6px var(--ground)",
+        "purpose": "Cuts zone squares out of the guide line."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "All sign transitions."
+      },
+      {
+        "name": "board-tab-slide",
+        "value": "clip-path .45s ease-out",
+        "purpose": "Zone colour slides across a directory row on hover/focus."
+      },
+      {
+        "name": "language-swap",
+        "value": "opacity .35 to 1, .28s ease-out",
+        "purpose": "Soft fade on main when the language changes; applied synchronously."
+      },
+      {
+        "name": "guide-line-draw",
+        "value": "scaleY driven by scroll position",
+        "purpose": "Each zone's guide line segment draws as the visitor reaches it; fully drawn under reduced motion or without JS."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack-zones",
+        "value": "1080px"
+      },
+      {
+        "name": "stack-lobby",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Primary action on light grounds, e.g. Contact in the top bar.",
+      "html": "<a class=\"ds-btn-ink\" href=\"#\">Contact</a>",
+      "css": ".ds-btn-ink{display:inline-flex;align-items:center;gap:10px;padding:10px 18px;border-radius:6px;background:#0e1a24;color:#fff;font:600 15px/1.2 Geologica,'Helvetica Neue',Arial,sans-serif;text-decoration:none;transition:background-color .15s ease}.ds-btn-ink:hover{background:#26394a}.ds-btn-ink:focus-visible{outline:3px solid #1f5fae;outline-offset:3px}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Primary action on the navy contact panel.",
+      "html": "<div style=\"background:#0e1a24;padding:24px\"><a class=\"ds-btn-light\" href=\"#\">Write an email</a></div>",
+      "css": ".ds-btn-light{display:inline-flex;padding:10px 18px;border-radius:6px;background:#fff;color:#0e1a24;font:600 15px/1.2 Geologica,'Helvetica Neue',Arial,sans-serif;text-decoration:none;transition:background-color .15s ease}.ds-btn-light:hover{background:#dfe6e3}.ds-btn-light:focus-visible{outline:3px solid #fff;outline-offset:3px}"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "nav",
+      "description": "Segmented EN | МН sign; pressed side filled navy.",
+      "html": "<div class=\"ds-lang\"><button aria-pressed=\"true\">EN</button><button aria-pressed=\"false\">МН</button></div>",
+      "css": ".ds-lang{display:inline-flex;border:2px solid #0e1a24;border-radius:6px;overflow:hidden}.ds-lang button{border:0;background:transparent;padding:5px 12px;font:700 14px Geologica,'Helvetica Neue',Arial,sans-serif;letter-spacing:.03em;color:#0e1a24;cursor:pointer}.ds-lang button[aria-pressed=true]{background:#0e1a24;color:#fff}.ds-lang button[aria-pressed=false]:hover{background:#e2e7e5}.ds-lang button:focus-visible{outline:3px solid #1f5fae;outline-offset:-5px}"
+    },
+    {
+      "name": "Room Plate",
+      "kind": "chip",
+      "refersTo": "room-plate",
+      "description": "Outlined tabular year plate used for every date.",
+      "html": "<span class=\"ds-room\">2013–2016</span>",
+      "css": ".ds-room{display:inline-block;padding:3px 9px;border:1.5px solid #0e1a24;border-radius:4px;font:600 14px/1.35 Geologica,'Helvetica Neue',Arial,sans-serif;font-variant-numeric:tabular-nums;color:#0e1a24;white-space:nowrap}"
+    },
+    {
+      "name": "Directory Row",
+      "kind": "custom",
+      "refersTo": "directory-board",
+      "description": "Signature board row: zone tab that slides across the row on hover.",
+      "html": "<div class=\"ds-board\"><a class=\"ds-row\" href=\"#\" style=\"--z:#00866b\"><span class=\"ds-tab\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"><path d=\"M9.5 4h5v5.5H20v5h-5.5V20h-5v-5.5H4v-5h5.5z\"/></svg></span><span class=\"ds-label\">Clinical practice<small>Эмнэлзүйн туршлага</small></span><span class=\"ds-yr\">2007–2016</span><span class=\"ds-arr\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h13M13 6l6 6-6 6\"/></svg></span></a></div>",
+      "css": ".ds-board{background:#0e1a24;border-radius:10px;overflow:hidden;color:#fff;max-width:640px}.ds-row{position:relative;isolation:isolate;display:grid;grid-template-columns:54px 1fr auto 34px;gap:0 18px;align-items:center;min-height:62px;padding-right:16px;color:#fff;text-decoration:none}.ds-row::before{content:'';position:absolute;inset:0;z-index:-1;background:var(--z);clip-path:inset(0 calc(100% - 54px) 0 0);transition:clip-path .45s cubic-bezier(.16,1,.3,1)}.ds-row:hover::before,.ds-row:focus-visible::before{clip-path:inset(0)}.ds-row:focus-visible{outline:3px solid #fff;outline-offset:-3px}.ds-tab{display:grid;place-items:center;align-self:stretch}.ds-label{display:flex;flex-direction:column;font:600 22px/1.15 Geologica,'Helvetica Neue',Arial,sans-serif}.ds-label small{font-size:14px;font-weight:500;color:#a9b7c0;margin-top:.3em}.ds-row:hover small{color:#fff}.ds-yr{padding:2px 8px;border:1.5px solid rgba(255,255,255,.22);border-radius:4px;font:600 13px Geologica,'Helvetica Neue',Arial,sans-serif;font-variant-numeric:tabular-nums;color:#a9b7c0}.ds-row:hover .ds-yr{color:#fff;border-color:rgba(255,255,255,.7)}.ds-arr{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;border:1.5px solid rgba(255,255,255,.25);transition:background-color .3s,color .3s}.ds-row:hover .ds-arr{background:#fff;border-color:#fff;color:var(--z)}"
+    },
+    {
+      "name": "Zone Sign",
+      "kind": "custom",
+      "refersTo": "zone-square",
+      "description": "Zone square on the guide line with a bilingual heading.",
+      "html": "<div class=\"ds-zone\"><span class=\"ds-line\"></span><span class=\"ds-sq\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 4h5M10.5 4v5.5L5.2 18a1.4 1.4 0 0 0 1.2 2h11.2a1.4 1.4 0 0 0 1.2-2l-5.3-8.5V4M7.6 14.5h8.8\"/></svg></span><h2>Research &amp; publications<small>Судалгаа, бүтээл</small></h2></div>",
+      "css": ".ds-zone{position:relative;padding:24px 0 24px 76px;background:#f2f4f3}.ds-line{position:absolute;left:25px;top:0;bottom:0;width:4px;border-radius:2px;background:#6e45a8}.ds-sq{position:absolute;left:8px;top:28px;display:grid;place-items:center;width:38px;height:38px;border-radius:6px;background:#6e45a8;color:#fff;box-shadow:0 0 0 6px #f2f4f3}.ds-zone h2{margin:0;display:flex;flex-direction:column;font:700 44px/1.05 Geologica,'Helvetica Neue',Arial,sans-serif;letter-spacing:-.02em;color:#0e1a24}.ds-zone small{font-size:max(14px,.42em);font-weight:500;letter-spacing:0;color:#4a5863;margin-top:.45em}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Bilingual Lobby Directory",
+    "overview": "The site reads like the signage of a modern hospital. A career is laid out as zones on a lobby directory, each with its own colour and pictogram, and a single painted guide line runs down the whole page through every zone, the way a floor line leads a visitor to a department. Signs carry both languages at once, as Mongolian hospitals do: the active language large, the other set beneath it. Running text shows only the active language.\n\nThe ground is a pale, slightly green signage grey with near-black navy sign panels. Colour is a wayfinding tool, never decoration: it appears on zone squares, directory tabs and the guide line, and nowhere else. The audience is senior and professional, so the system stays calm, legible and exact, with dates in fixed tabular plates like room numbers.",
+    "keyCharacteristics": [
+      "Pale signage ground, navy sign panels, four zone colours used only for wayfinding.",
+      "Bilingual signs: active language primary, other language beneath at 0.42em (never below 14px).",
+      "One continuous guide line through the page, coloured per zone.",
+      "Years set as outlined room-number plates in a fixed column.",
+      "Arrows are the only ornament."
+    ],
+    "rules": [
+      {
+        "name": "The Wayfinding-Only Rule",
+        "body": "Zone colours appear only on zone squares, directory tabs and the guide line. Headings, body text, bullets and borders stay neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The White-On-Zone Rule",
+        "body": "Every zone colour must hold white text at 4.5:1 or better, because the board fills a whole row with it on hover.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Language Sign Rule",
+        "body": "A sign shows both languages; text shows one. Secondary sign text is 0.42em of the sign, never below 14px (13px on the board).",
+        "section": "typography"
+      },
+      {
+        "name": "The Room Number Rule",
+        "body": "Every date is set in tabular figures inside an outlined plate, in a fixed-width column (116px) so years scan straight down.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mounted-Sign Rule",
+        "body": "Only physical signs (the board, the door plate) cast shadows. Lists, entries and sections never do.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put every new section on the guide line with its own zone square and bilingual heading.",
+      "**Do** write all copy twice, English and Mongolian, as sibling spans.",
+      "**Do** set every date in a room plate with tabular figures.",
+      "**Do** check new zone colours for 4.5:1 white text before using them on the board."
+    ],
+    "donts": [
+      "**Don't** colour headings, bullets or borders with zone colours; colour is for wayfinding only.",
+      "**Don't** add check marks, thick top bars or other ornament; arrows are the only ornament.",
+      "**Don't** add eyebrow labels above headings or numbered section markers.",
+      "**Don't** use panel-text-secondary (#a9b7c0) on a light ground.",
+      "**Don't** drop below 14px for secondary sign text."
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-22T13:39:15.903Z",
+        "reason": "Claude verified in browser: #a9b7c0 is only used on the #0e1a24 panel (about 8:1); detector assumed a white ground"
+      },
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-22T13:39:15.920Z",
+        "reason": "Claude verified computed sizes in browser at 320-1440px in EN and MN: smallest rendered text is 13px; detector resolved em against an unclamped base"
+      },
+      {
+        "rule": "undersized-ui-text",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-22T13:39:15.935Z",
+        "reason": "Claude verified computed sizes in browser: the flagged 'Холбоо барих' secondary label renders at 14px or more; static em resolution"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#000",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-10-23T05:38:39.328Z",
+        "reason": "Claude verified: #000 only appears as the opaque stop of the equipment-photo mask-image gradient, an alpha value, not a painted colour"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0, 0, 0)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-23T05:38:39.345Z",
+        "reason": "Claude verified in browser: both 'Dr. Tamir Doljinsuren' spans compute to #0e1a24 / #4a5863; detector rendered without the stylesheet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# Working files: not part of the public site
+PRODUCT.md
+README.md
+DESIGN.md
+.impeccable
+.git
+.vercelignore
+assets/**/*.webp.json
+.env*
+.vercel
